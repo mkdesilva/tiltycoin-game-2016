@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39934F441D2E51BF00A01846 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39934F431D2E51BF00A01846 /* AppDelegate.swift */; };
+		39934F461D2E51BF00A01846 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 39934F451D2E51BF00A01846 /* GameScene.sks */; };
+		39934F481D2E51BF00A01846 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39934F471D2E51BF00A01846 /* GameScene.swift */; };
+		39934F4A1D2E51BF00A01846 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39934F491D2E51BF00A01846 /* GameViewController.swift */; };
+		39934F4D1D2E51C000A01846 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39934F4B1D2E51C000A01846 /* Main.storyboard */; };
+		39934F4F1D2E51C000A01846 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39934F4E1D2E51C000A01846 /* Assets.xcassets */; };
+		39934F521D2E51C000A01846 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39934F501D2E51C000A01846 /* LaunchScreen.storyboard */; };
+		39934F5D1D2E51C000A01846 /* TiltyCoinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39934F5C1D2E51C000A01846 /* TiltyCoinTests.swift */; };
+		39934F681D2E51C000A01846 /* TiltyCoinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39934F671D2E51C000A01846 /* TiltyCoinUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39934F591D2E51C000A01846 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39934F381D2E51BF00A01846 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39934F3F1D2E51BF00A01846;
+			remoteInfo = TiltyCoin;
+		};
+		39934F641D2E51C000A01846 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39934F381D2E51BF00A01846 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39934F3F1D2E51BF00A01846;
+			remoteInfo = TiltyCoin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		39934F401D2E51BF00A01846 /* Tilt Coin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tilt Coin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39934F431D2E51BF00A01846 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		39934F451D2E51BF00A01846 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		39934F471D2E51BF00A01846 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		39934F491D2E51BF00A01846 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		39934F4C1D2E51C000A01846 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		39934F4E1D2E51C000A01846 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39934F511D2E51C000A01846 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		39934F531D2E51C000A01846 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39934F581D2E51C000A01846 /* Tilt Coin.temp_caseinsensitive_rename.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tilt Coin.temp_caseinsensitive_rename.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39934F5C1D2E51C000A01846 /* TiltyCoinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiltyCoinTests.swift; sourceTree = "<group>"; };
+		39934F5E1D2E51C000A01846 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39934F631D2E51C000A01846 /* Tilt Coin.temp_caseinsensitive_rename.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tilt Coin.temp_caseinsensitive_rename.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39934F671D2E51C000A01846 /* TiltyCoinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiltyCoinUITests.swift; sourceTree = "<group>"; };
+		39934F691D2E51C000A01846 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39934F3D1D2E51BF00A01846 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39934F551D2E51C000A01846 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39934F601D2E51C000A01846 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39934F371D2E51BF00A01846 = {
+			isa = PBXGroup;
+			children = (
+				39934F421D2E51BF00A01846 /* Tilt Coin */,
+				39934F5B1D2E51C000A01846 /* TiltCoinTests */,
+				39934F661D2E51C000A01846 /* TiltCoinUITests */,
+				39934F411D2E51BF00A01846 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39934F411D2E51BF00A01846 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39934F401D2E51BF00A01846 /* Tilt Coin.app */,
+				39934F581D2E51C000A01846 /* Tilt Coin.temp_caseinsensitive_rename.xctest */,
+				39934F631D2E51C000A01846 /* Tilt Coin.temp_caseinsensitive_rename.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39934F421D2E51BF00A01846 /* Tilt Coin */ = {
+			isa = PBXGroup;
+			children = (
+				39934F431D2E51BF00A01846 /* AppDelegate.swift */,
+				39934F451D2E51BF00A01846 /* GameScene.sks */,
+				39934F471D2E51BF00A01846 /* GameScene.swift */,
+				39934F491D2E51BF00A01846 /* GameViewController.swift */,
+				39934F4B1D2E51C000A01846 /* Main.storyboard */,
+				39934F4E1D2E51C000A01846 /* Assets.xcassets */,
+				39934F501D2E51C000A01846 /* LaunchScreen.storyboard */,
+				39934F531D2E51C000A01846 /* Info.plist */,
+			);
+			name = "Tilt Coin";
+			path = TiltyCoin;
+			sourceTree = "<group>";
+		};
+		39934F5B1D2E51C000A01846 /* TiltCoinTests */ = {
+			isa = PBXGroup;
+			children = (
+				39934F5C1D2E51C000A01846 /* TiltyCoinTests.swift */,
+				39934F5E1D2E51C000A01846 /* Info.plist */,
+			);
+			name = TiltCoinTests;
+			path = TiltyCoinTests;
+			sourceTree = "<group>";
+		};
+		39934F661D2E51C000A01846 /* TiltCoinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				39934F671D2E51C000A01846 /* TiltyCoinUITests.swift */,
+				39934F691D2E51C000A01846 /* Info.plist */,
+			);
+			name = TiltCoinUITests;
+			path = TiltyCoinUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39934F3F1D2E51BF00A01846 /* TiltyCoin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39934F6C1D2E51C000A01846 /* Build configuration list for PBXNativeTarget "TiltyCoin" */;
+			buildPhases = (
+				39934F3C1D2E51BF00A01846 /* Sources */,
+				39934F3D1D2E51BF00A01846 /* Frameworks */,
+				39934F3E1D2E51BF00A01846 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TiltyCoin;
+			productName = TiltyCoin;
+			productReference = 39934F401D2E51BF00A01846 /* Tilt Coin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39934F571D2E51C000A01846 /* TiltyCoinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39934F6F1D2E51C000A01846 /* Build configuration list for PBXNativeTarget "TiltyCoinTests" */;
+			buildPhases = (
+				39934F541D2E51C000A01846 /* Sources */,
+				39934F551D2E51C000A01846 /* Frameworks */,
+				39934F561D2E51C000A01846 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39934F5A1D2E51C000A01846 /* PBXTargetDependency */,
+			);
+			name = TiltyCoinTests;
+			productName = TiltyCoinTests;
+			productReference = 39934F581D2E51C000A01846 /* Tilt Coin.temp_caseinsensitive_rename.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		39934F621D2E51C000A01846 /* TiltyCoinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39934F721D2E51C000A01846 /* Build configuration list for PBXNativeTarget "TiltyCoinUITests" */;
+			buildPhases = (
+				39934F5F1D2E51C000A01846 /* Sources */,
+				39934F601D2E51C000A01846 /* Frameworks */,
+				39934F611D2E51C000A01846 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39934F651D2E51C000A01846 /* PBXTargetDependency */,
+			);
+			name = TiltyCoinUITests;
+			productName = TiltyCoinUITests;
+			productReference = 39934F631D2E51C000A01846 /* Tilt Coin.temp_caseinsensitive_rename.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39934F381D2E51BF00A01846 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = mihinduDeSilva;
+				TargetAttributes = {
+					39934F3F1D2E51BF00A01846 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 4TFEU94KP6;
+					};
+					39934F571D2E51C000A01846 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 39934F3F1D2E51BF00A01846;
+					};
+					39934F621D2E51C000A01846 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 39934F3F1D2E51BF00A01846;
+					};
+				};
+			};
+			buildConfigurationList = 39934F3B1D2E51BF00A01846 /* Build configuration list for PBXProject "Tilt Coin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39934F371D2E51BF00A01846;
+			productRefGroup = 39934F411D2E51BF00A01846 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39934F3F1D2E51BF00A01846 /* TiltyCoin */,
+				39934F571D2E51C000A01846 /* TiltyCoinTests */,
+				39934F621D2E51C000A01846 /* TiltyCoinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39934F3E1D2E51BF00A01846 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39934F461D2E51BF00A01846 /* GameScene.sks in Resources */,
+				39934F521D2E51C000A01846 /* LaunchScreen.storyboard in Resources */,
+				39934F4F1D2E51C000A01846 /* Assets.xcassets in Resources */,
+				39934F4D1D2E51C000A01846 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39934F561D2E51C000A01846 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39934F611D2E51C000A01846 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39934F3C1D2E51BF00A01846 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39934F481D2E51BF00A01846 /* GameScene.swift in Sources */,
+				39934F4A1D2E51BF00A01846 /* GameViewController.swift in Sources */,
+				39934F441D2E51BF00A01846 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39934F541D2E51C000A01846 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39934F5D1D2E51C000A01846 /* TiltyCoinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39934F5F1D2E51C000A01846 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39934F681D2E51C000A01846 /* TiltyCoinUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39934F5A1D2E51C000A01846 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39934F3F1D2E51BF00A01846 /* TiltyCoin */;
+			targetProxy = 39934F591D2E51C000A01846 /* PBXContainerItemProxy */;
+		};
+		39934F651D2E51C000A01846 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39934F3F1D2E51BF00A01846 /* TiltyCoin */;
+			targetProxy = 39934F641D2E51C000A01846 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		39934F4B1D2E51C000A01846 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39934F4C1D2E51C000A01846 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		39934F501D2E51C000A01846 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39934F511D2E51C000A01846 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39934F6A1D2E51C000A01846 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39934F6B1D2E51C000A01846 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39934F6D1D2E51C000A01846 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = TiltyCoin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mihinduDeSilva.JC.Tilt-Coin";
+				PRODUCT_NAME = "Tilt Coin";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		39934F6E1D2E51C000A01846 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = TiltyCoin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mihinduDeSilva.JC.Tilt-Coin";
+				PRODUCT_NAME = "Tilt Coin";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		39934F701D2E51C000A01846 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = TiltyCoinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mihinduDeSilva.JC.TiltyCoinTests;
+				PRODUCT_NAME = "Tilt Coin.temp_caseinsensitive_rename";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TiltyCoin.app/TiltyCoin";
+			};
+			name = Debug;
+		};
+		39934F711D2E51C000A01846 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TiltyCoinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mihinduDeSilva.JC.TiltyCoinTests;
+				PRODUCT_NAME = "Tilt Coin.temp_caseinsensitive_rename";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TiltyCoin.app/TiltyCoin";
+			};
+			name = Release;
+		};
+		39934F731D2E51C000A01846 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = TiltyCoinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mihinduDeSilva.JC.TiltyCoinUITests;
+				PRODUCT_NAME = "Tilt Coin.temp_caseinsensitive_rename";
+				TEST_TARGET_NAME = TiltyCoin;
+			};
+			name = Debug;
+		};
+		39934F741D2E51C000A01846 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TiltyCoinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mihinduDeSilva.JC.TiltyCoinUITests;
+				PRODUCT_NAME = "Tilt Coin.temp_caseinsensitive_rename";
+				TEST_TARGET_NAME = TiltyCoin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39934F3B1D2E51BF00A01846 /* Build configuration list for PBXProject "Tilt Coin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39934F6A1D2E51C000A01846 /* Debug */,
+				39934F6B1D2E51C000A01846 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39934F6C1D2E51C000A01846 /* Build configuration list for PBXNativeTarget "TiltyCoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39934F6D1D2E51C000A01846 /* Debug */,
+				39934F6E1D2E51C000A01846 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39934F6F1D2E51C000A01846 /* Build configuration list for PBXNativeTarget "TiltyCoinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39934F701D2E51C000A01846 /* Debug */,
+				39934F711D2E51C000A01846 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39934F721D2E51C000A01846 /* Build configuration list for PBXNativeTarget "TiltyCoinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39934F731D2E51C000A01846 /* Debug */,
+				39934F741D2E51C000A01846 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39934F381D2E51BF00A01846 /* Project object */;
+}
